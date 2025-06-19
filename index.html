@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Battle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <img src="assets/images/loader.gif" alt="Loading...">
+  </div>
+
+  <!-- Main Content -->
+  <div id="mainContent" style="display:none;">
+    
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="modeToggle">Toggle Mode</button></li>
+      </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section id="home">
+      <h1>Welcome to Frontend Battle</h1>
+      <img src="assets/images/banner.jpg" alt="Hero Banner" style="width:100%; max-height:400px; object-fit:cover;">
+    </section>
+
+    <section id="about">
+      <h2>About This Challenge</h2>
+      <p>This is a frontend competition to test your design skills, responsiveness, and creativity.</p>
+      <img src="assets/images/about.jpg" alt="About Section" style="width:100%; max-width:500px;">
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Responsive Layout</li>
+        <li>Dark Mode</li>
+        <li>Loader</li>
+        <li>Video Integration</li>
+        <li>Gallery</li>
+        <li>Smooth Scrolling</li>
+      </ul>
+
+      <!-- Video -->
+      <video src="assets/videos/sample.mp4" controls style="width:100%; max-width:600px;"></video>
+
+      <!-- Image Gallery -->
+      <div style="display: flex; gap: 10px; margin-top: 20px;">
+        <img src="assets/images/gallery1.jpg" alt="Gallery 1" style="width:100px;">
+        <img src="assets/images/gallery2.jpg" alt="Gallery 2" style="width:100px;">
+        <img src="assets/images/gallery3.jpg" alt="Gallery 3" style="width:100px;">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Frontend Battle. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
