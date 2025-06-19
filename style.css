@@ -32,7 +32,8 @@ nav a {
 }
 
 section {
-  padding: 40px;
+  padding: 80px 40px;
+  min-height: 100vh;
 }
 
 footer {
